@@ -9,6 +9,7 @@
 
 using namespace std;
 // this is a chess game (i used name instead of symbol)
+//  lets play
 vector<vector<string>> board(8, vector<string>(8, "      "));
 string whitep, blackp, previous = "";
 int k = 1, pc, pr, flag;
